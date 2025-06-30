@@ -53,4 +53,48 @@ print("168" * 50)
 # 168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168168
 print(168 * 50)  # 8400
 
-print(int(168) + int(50))  # 218
+print(int("168") + int("50"))  # 218
+
+# zmienna - pudełko na dane
+# snake_case
+# nazwa zmiennej powinna podpowiadac co przecho218wuje
+
+# typowanie dynamiczne
+# typ zmiennej jest wnioskowany na podstawie danych jakie zawiera zmienna
+liczba = 39
+print(liczba)  # 39
+print(type(liczba))  # <class 'int'>
+
+liczba = "Radek"
+print(liczba)  # Radek
+
+print(type(liczba))  # <class 'str'>
+
+name = "Radek"
+print(name + "kowalski")  # Radekkowalski
+
+name = 90
+# print(name + "kowalski") # TypeError: unsupported operand type(s) for +: 'int' and 'str'
+# typ danych int - liczby całkowite
+# str - teksty
+
+# to jest tylko podpowiedź
+name: str = "Radek"
+print(name)  # Radek
+name = 90  # dałem int
+print(name)  # 90
+
+age = 56
+print(age)  # 56
+print(type(age))  # <class 'int'>
+
+# #  pip install mypy
+# cd day_1/
+#  mypy pierwszy.py
+# (.venv) radoslawjaniak@MacBook-Air-radosaw-2 day_1 % mypy pierwszy.py
+# pierwszy.py:68: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+# pierwszy.py:76: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+# pierwszy.py:82: error: Name "name" already defined on line 73  [no-redef]
+# pierwszy.py:84: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+# Found 4 errors in 1 file (checked 1 source file)
+# (.venv) radoslawjaniak@MacBook-Air-radosaw-2 day_1 %
