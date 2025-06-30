@@ -98,3 +98,4 @@ print(type(age))  # <class 'int'>
 # pierwszy.py:84: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
 # Found 4 errors in 1 file (checked 1 source file)
 # (.venv) radoslawjaniak@MacBook-Air-radosaw-2 day_1 %
+print("Test") # Test
