@@ -43,3 +43,29 @@ print(dict_small)  # {'x': 2}
 # [('imie', 'Radek'), ('wiek', 48)] lista krotek
 dict_small.update([("y", 3), ("z", 8)])
 print(dict_small)  # {'x': 2, 'y': 3, 'z': 8}
+
+# input() - pozwala wprowadzic dane do komputera
+# tekst = input("Podaj imię")
+# print(tekst)
+# Podaj imięRadek
+# Radek
+
+# napisac aplikację kalkulator
+# pobrac liczby od uzytkownika input()
+# wyswietlic wynik działąnia print()
+
+# a = input("Podaj pierwszą liczbę: ")  # -> str
+# # b = float(input("Podaj drugą liczbę: "))
+# b = input("Podaj drugą liczbę: ")
+# print(int(a) + float(b))  # rzutowanie na liczbę
+# int() - rzutowanie na całkowitą
+# float() - rzutowanie na zmiennoprzecinkową
+# Podaj pierwszą liczbę: 7
+# Podaj drugą liczbę: 9
+# 16.0
+
+# napisac aplikację słownik pol-ang
+pol_ang = {'kot': "cat", 'pies': "dog", 'dach': "roof"}
+print("Znam takie słowa:", pol_ang.keys())
+odp = input("Podaj słówko do przetłumaczenia:")
+print(pol_ang[odp])
