@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d922cfb-18fc-4767-bb99-8314f17abaf2" name="Changes" comment="[1 5] add formaty.py">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonPodstawyNie-30-06-2025.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_1/typy_danych_1.py" afterDir="false" />
+    <list default="true" id="2d922cfb-18fc-4767-bb99-8314f17abaf2" name="Changes" comment="[2 11] update typy_danych_5_slownik.py">
+      <change beforePath="$PROJECT_DIR$/day2/typy_danych_5_slownik.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/typy_danych_5_slownik.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,100 +60,25 @@
     "Python.pierwszy.executor": "Run",
     "Python.teksty.executor": "Run",
     "Python.typy_danych_1.executor": "Run",
+    "Python.typy_danych_2_lista.executor": "Run",
+    "Python.typy_danych_3_krokta.executor": "Run",
+    "Python.typy_danych_4_zbior.executor": "Run",
+    "Python.typy_danych_5_slownik.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/radoslawjaniak/PycharmProjects/PythonPodstawyNie-30-06-2025/extras"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.typy_danych_1">
-    <configuration name="formaty" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonPodstawyNie-30-06-2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_1/formaty.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonPodstawyNie-30-06-2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pierwszy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonPodstawyNie-30-06-2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_1/pierwszy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="teksty" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonPodstawyNie-30-06-2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_1/teksty.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extras" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.typy_danych_5_slownik">
     <configuration name="typy_danych_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPodstawyNie-30-06-2025" />
       <option name="ENV_FILES" value="" />
@@ -182,13 +101,101 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="typy_danych_2_lista" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonPodstawyNie-30-06-2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/typy_danych_2_lista.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="typy_danych_3_krokta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonPodstawyNie-30-06-2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/typy_danych_3_krokta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="typy_danych_4_zbior" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonPodstawyNie-30-06-2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/typy_danych_4_zbior.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="typy_danych_5_slownik" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonPodstawyNie-30-06-2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/typy_danych_5_slownik.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.typy_danych_5_slownik" />
+        <item itemvalue="Python.typy_danych_4_zbior" />
+        <item itemvalue="Python.typy_danych_3_krokta" />
+        <item itemvalue="Python.typy_danych_2_lista" />
         <item itemvalue="Python.typy_danych_1" />
-        <item itemvalue="Python.formaty" />
-        <item itemvalue="Python.teksty" />
-        <item itemvalue="Python.pierwszy" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +254,111 @@
       <option name="project" value="LOCAL" />
       <updated>1751289398445</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[1 6] add typy_danych_1.py">
+      <option name="closed" value="true" />
+      <created>1751290364017</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751290364017</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[1 7] update typy_danych_1.py">
+      <option name="closed" value="true" />
+      <created>1751291846605</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751291846605</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[2 1] add extras">
+      <option name="closed" value="true" />
+      <created>1751350551776</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751350551776</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[2 2] update materialy_dodatkowe.txt">
+      <option name="closed" value="true" />
+      <created>1751354595456</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751354595456</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[2 3] update materialy_dodatkowe.txt">
+      <option name="closed" value="true" />
+      <created>1751354659007</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751354659007</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[2 4] update typy_danych_2_lista.py">
+      <option name="closed" value="true" />
+      <created>1751356346521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1751356346521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[2 5] update typy_danych_2_lista.py">
+      <option name="closed" value="true" />
+      <created>1751357236419</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751357236419</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[2 6] update typy_danych_2_lista.py">
+      <option name="closed" value="true" />
+      <created>1751357784633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751357784633</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[2 7] update typy_danych_2_lista.py">
+      <option name="closed" value="true" />
+      <created>1751360233673</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1751360233673</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[2 8] update typy_danych_2_lista.py">
+      <option name="closed" value="true" />
+      <created>1751362823978</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1751362823978</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[2 9] add typy_danych_4_zbior.py">
+      <option name="closed" value="true" />
+      <created>1751365125117</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1751365125117</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[2 10] update typy_danych_4_zbior.py">
+      <option name="closed" value="true" />
+      <created>1751366341920</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1751366341920</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[2 11] update typy_danych_5_slownik.py">
+      <option name="closed" value="true" />
+      <created>1751368406023</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1751368406023</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,7 +367,20 @@
     <MESSAGE value="[1 3] update pierwszy.py" />
     <MESSAGE value="[1 4] update teksty.py" />
     <MESSAGE value="[1 5] add formaty.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="[1 5] add formaty.py" />
+    <MESSAGE value="[1 6] add typy_danych_1.py" />
+    <MESSAGE value="[1 7] update typy_danych_1.py" />
+    <MESSAGE value="[2 1] add extras" />
+    <MESSAGE value="[2 2] update materialy_dodatkowe.txt" />
+    <MESSAGE value="[2 3] update materialy_dodatkowe.txt" />
+    <MESSAGE value="[2 4] update typy_danych_2_lista.py" />
+    <MESSAGE value="[2 5] update typy_danych_2_lista.py" />
+    <MESSAGE value="[2 6] update typy_danych_2_lista.py" />
+    <MESSAGE value="[2 7] update typy_danych_2_lista.py" />
+    <MESSAGE value="[2 8] update typy_danych_2_lista.py" />
+    <MESSAGE value="[2 9] add typy_danych_4_zbior.py" />
+    <MESSAGE value="[2 10] update typy_danych_4_zbior.py" />
+    <MESSAGE value="[2 11] update typy_danych_5_slownik.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2 11] update typy_danych_5_slownik.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

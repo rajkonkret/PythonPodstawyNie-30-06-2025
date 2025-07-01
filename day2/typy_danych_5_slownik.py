@@ -64,8 +64,16 @@ print(dict_small)  # {'x': 2, 'y': 3, 'z': 8}
 # Podaj drugą liczbę: 9
 # 16.0
 
-# napisac aplikację słownik pol-ang
+# napisac aplikację słownik pol-angmeeting_saved_new_chat.txt
 pol_ang = {'kot': "cat", 'pies': "dog", 'dach': "roof"}
 print("Znam takie słowa:", pol_ang.keys())
 odp = input("Podaj słówko do przetłumaczenia:")
-print(pol_ang[odp])
+# print(pol_ang[odp.strip().lower()])
+print(pol_ang.get(odp.strip().lower()))
+
+name1 = "GROSS"
+name2 = "groß"
+# == porównanie
+print(name1.lower() == name2.lower())  # False
+print(name1.upper() == name2.upper())  # True
+print(name1.casefold() == name2.casefold())  # True
