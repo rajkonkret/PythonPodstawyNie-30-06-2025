@@ -112,3 +112,42 @@ print(lista_copy)  # ['Radek', 'Agata']
 print(id(lista))  # 4302796544
 print(id(lista_2))  # 4302796544
 print(id(lista_copy))  # 4303535872
+
+liczby = [54, 999, 34, 22, 12.34, 567]
+print(liczby)  # [54, 999, 34, 22, 12.34, 567]
+print(type(liczby))  # <class 'list'>
+
+liczby.sort()
+print(liczby)  # [12.34, 22, 34, 54, 567, 999]
+
+liczby = [54, 999, 34, 22, 12.34, 567, "A"]
+print(liczby)  # [54, 999, 34, 22, 12.34, 567, 'A']
+print(type(liczby))  # <class 'list'>
+# liczby.sort()  # TypeError: '<' not supported between instances of 'str' and 'int'
+
+print(lista_copy)  # ['Radek', 'Agata']
+lista_copy.sort()
+print(lista_copy)  # ['Agata', 'Radek']
+
+lista_copy.sort(reverse=True)
+print(lista_copy)  # ['Radek', 'Agata']
+
+lista_copy.reverse()
+print(lista_copy)  # ['Agata', 'Radek']
+
+liczby[3] = 666
+print(liczby[0:3])  # [54, 999, 34]
+print(liczby[-2])  # 567
+print(liczby)  # [54, 999, 34, 666, 12.34, 567, 'A']
+
+# rozpakowanie sekwencji
+tekst = "Pyth on."
+lista1 = list(tekst)
+print(lista1)  # ['P', 'y', 't', 'h', ' ', 'o', 'n', '.']
+
+lista2 = [tekst]
+print(lista2)  # ['Pyth on.']
+
+krotka = tuple(lista_copy)
+print(type(krotka))  # <class 'tuple'>
+print(krotka)  # ('Agata', 'Radek')
