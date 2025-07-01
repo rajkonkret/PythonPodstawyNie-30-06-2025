@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d922cfb-18fc-4767-bb99-8314f17abaf2" name="Changes" comment="[2 11] update typy_danych_5_slownik.py">
-      <change beforePath="$PROJECT_DIR$/day2/typy_danych_5_slownik.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/typy_danych_5_slownik.py" afterDir="false" />
+    <list default="true" id="2d922cfb-18fc-4767-bb99-8314f17abaf2" name="Changes" comment="[2 12] update typy_danych_5_slownik.py">
+      <change afterPath="$PROJECT_DIR$/day2/warunki.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +66,12 @@
     "Python.typy_danych_3_krokta.executor": "Run",
     "Python.typy_danych_4_zbior.executor": "Run",
     "Python.typy_danych_5_slownik.executor": "Run",
+    "Python.warunki.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/radoslawjaniak/PycharmProjects/PythonPodstawyNie-30-06-2025/extras"
+    "last_opened_file_path": "/Users/radoslawjaniak/PycharmProjects/PythonPodstawyNie-30-06-2025/extras",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,29 +82,7 @@
       <recent name="$PROJECT_DIR$/day2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.typy_danych_5_slownik">
-    <configuration name="typy_danych_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonPodstawyNie-30-06-2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_1/typy_danych_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.warunki">
     <configuration name="typy_danych_2_lista" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPodstawyNie-30-06-2025" />
       <option name="ENV_FILES" value="" />
@@ -189,13 +171,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="warunki" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonPodstawyNie-30-06-2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/warunki.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.warunki" />
         <item itemvalue="Python.typy_danych_5_slownik" />
         <item itemvalue="Python.typy_danych_4_zbior" />
         <item itemvalue="Python.typy_danych_3_krokta" />
         <item itemvalue="Python.typy_danych_2_lista" />
-        <item itemvalue="Python.typy_danych_1" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751368406023</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[2 12] update typy_danych_5_slownik.py">
+      <option name="closed" value="true" />
+      <created>1751371800924</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1751371800924</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -380,7 +392,8 @@
     <MESSAGE value="[2 9] add typy_danych_4_zbior.py" />
     <MESSAGE value="[2 10] update typy_danych_4_zbior.py" />
     <MESSAGE value="[2 11] update typy_danych_5_slownik.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2 11] update typy_danych_5_slownik.py" />
+    <MESSAGE value="[2 12] update typy_danych_5_slownik.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2 12] update typy_danych_5_slownik.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,6 +407,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day2/warunki.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
