@@ -64,3 +64,30 @@ print(list(range(0, 15, 2)))  # [0, 2, 4, 6, 8, 10, 12, 14]
 print(lista[::2])  # ['Radek', 'Tomek', 'Filip'] cała lista co drugi element
 
 print(lista[::-1])  # ['Filip', 'Jarek', 'Tomek', 'Agata', 'Radek'] odwrócona lista
+
+# nadpisanie elementu w liście na wskazanym indeksie
+# zmiana na oryginalnej liście
+
+lista[3] = "Asia"
+print(lista)  # ['Radek', 'Agata', 'Tomek', 'Asia', 'Filip']
+
+# dopisanie elemntu do listy we wskazanym indeksie
+lista.insert(1, "Agata")
+print(lista)
+# ['Radek', 'Agata', 'Agata', 'Tomek', 'Asia', 'Filip']
+
+# sprawdzenie indeksu dla danego elementu
+print(lista.index("Asia"))  # index 4
+print(lista.index("Agata"))  # indeks 1, pierwszy napotkany
+# print(lista.index("Jarek")) # ValueError: 'Jarek' is not in list
+
+# usunięcie elementów z listy po elemencie
+lista.remove("Agata")  # usunie pierwszy napotkany
+print(lista)  # ['Radek', 'Agata', 'Tomek', 'Asia', 'Filip']
+
+# usunięcie po indeksie pop()
+print(lista.pop(3))  # Asia, zwróći usunięty eleemnt
+print(lista)  # ['Radek', 'Agata', 'Tomek', 'Filip']
+print(lista.pop(-1))  # Filip
+print(lista.pop())  # Tomek, usunie ostatni
+
