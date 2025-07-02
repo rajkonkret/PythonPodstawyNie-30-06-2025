@@ -34,7 +34,7 @@ with open("test.log", "w", encoding="utf-8") as fh:
 with open("test.log", "a", encoding="utf-8") as fh:
     fh.write("Powitanie\n")
     fh.write("Dopisane\n")
-    fh.write("Dośpisane\n")
+    fh.write("Dośćąźpisane\n")
 
 # "r" odczyt
 with open("test.log", "r", encoding="utf-8") as file:
