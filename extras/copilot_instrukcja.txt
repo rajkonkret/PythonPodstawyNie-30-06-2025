@@ -12,4 +12,4 @@
 	2.	Zainstaluj plugin GitHub Copilot
 	3.	Uruchom ponownie IDE
 	4.	Zaloguj się do GitHub, jeśli pojawi się okno logowania
-	5.	Gotowe — możesz korzystać z darmowego Copilota!
+	5.	Gotowe — możesaz korzystać z darmowego Copilota!
