@@ -27,3 +27,24 @@ print("Sformatowany czas:", formated_time)  # Sformatowany czas: 13:00
 
 formated_time_usa = datetime.now().strftime("%I:%M %p")
 print("Czas 12h:", formated_time_usa)  # Czas 12h: 01:01 PM
+
+products = [
+    {"sku": 1, "exp_date": today, "price": 20},
+    {"sku": 2, "exp_date": today, "price": 100},
+    {"sku": 3, "exp_date": tommorow, "price": 500},
+    {"sku": 4, "exp_date": today, "price": 80},
+    {"sku": 5, "exp_date": today, "price": 50},
+]
+
+for product in products:
+    # print(product)
+    # {'sku': 1, 'exp_date': datetime.date(2025, 7, 2), 'price': 20}
+    # print(type(product))  # <class 'dict'>
+    # print(product['exp_date'])  # 2025-07-02
+
+    if product['exp_date'] != today:
+        continue  # konczy biezącą iterację pętli, odkłada słoik na półkę
+
+    product['price'] *= 0.8  # p = p * 0.8
+    print(f"""Price for sku {product['sku']}
+is now {product['price']}""")
