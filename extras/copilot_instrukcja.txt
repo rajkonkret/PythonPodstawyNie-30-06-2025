@@ -1,0 +1,15 @@
+ Jak włączyć darmowego GitHub Copilota
+	1.	Przejdź do: https://github.com/settings/copilot
+	2.	Zaloguj się na konto GitHub.
+	3.	W sekcji Copilot for Individuals kliknij Enable GitHub Copilot.
+	4.	Wybierz opcję darmową (jeśli dostępna – najczęściej jest automatycznie wybrana).
+	5.	Zatwierdź.
+
+⸻
+
+🚀 Teraz uruchom go w PyCharm:
+	1.	Otwórz PyCharm → File → Settings → Plugins
+	2.	Zainstaluj plugin GitHub Copilot
+	3.	Uruchom ponownie IDE
+	4.	Zaloguj się do GitHub, jeśli pojawi się okno logowania
+	5.	Gotowe — możesz korzystać z darmowego Copilota!
