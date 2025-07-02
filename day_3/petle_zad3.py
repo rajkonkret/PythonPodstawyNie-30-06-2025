@@ -37,16 +37,26 @@ while licznik < 10:
 
 # ctrl / - komentowanie
 
-lista = []
-lista_int = []
-while True:
-    wej = input("Podaj liczbę")  # str
-    # A string is numeric if all characters in the string are numeric
-    if not wej.isnumeric():
-        break
+# lista = []
+# lista_int = []
+# while True:
+#     wej = input("Podaj liczbę")  # str
+#     # A string is numeric if all characters in the string are numeric
+#     if not wej.isnumeric():
+#         break
+#
+#     lista.append(wej)
+#     lista_int.append(int(wej))
+#
+# print(lista)  # ['1', '2', '3', '4', '5', '6']
+# print(lista_int)  # [1, 2, 3, 4, 5, 6]
 
-    lista.append(wej)
-    lista_int.append(int(wej))
+my_list = [1, 5, 2, 3, 5, 4, 5, 6, 5]
+element_to_remove = 5
 
-print(lista)  # ['1', '2', '3', '4', '5', '6']
-print(lista_int)  # [1, 2, 3, 4, 5, 6]
+while element_to_remove in my_list:
+    my_list.remove(element_to_remove)
+
+print(my_list)  # [1, 2, 3, 4, 6]
+# usunął liczbe 5 z listy
+# nie zmienił kolejnosci
