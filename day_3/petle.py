@@ -84,3 +84,105 @@ for c in lista3:
 # Przy każdym przejściu pętli 4
 # Przy każdym przejściu pętli 6
 # Przy każdym przejściu pętli 8
+
+imiona = ["Radek", "Tomek", "Agata", "Filip"]
+print(imiona)  # ['Radek', 'Tomek', 'Agata', 'Filip']
+print(type(imiona))  # <class 'list'>
+
+for p in imiona:
+    print(p)
+# Radek
+# Tomek
+# Agata
+# Filip
+
+# 0 Radek
+for p in imiona:
+    print(imiona.index(p), p)
+# 0 Radek
+# 1 Tomek
+# 2 Agata
+# 3 Filip
+
+for i in range(len(imiona)):
+    print(i, imiona[i])
+# 0 Radek
+# 1 Tomek
+# 2 Agata
+# 3 Filip
+
+# enumerate() - zwraca ineks i element
+for p in enumerate(imiona):
+    print(p)
+# (0, 'Radek')
+# (1, 'Tomek')
+# (2, 'Agata')
+# (3, 'Filip') -> 3 Filip
+a, b = (3, 'Filip')
+print(a, b)
+
+for i, o in enumerate(imiona):
+    print(i, o)
+# 0 Radek
+# 1 Tomek
+# 2 Agata
+# 3 Filip
+
+for i, o in enumerate(imiona, start=1):
+    print(i, o)
+# 1 Radek
+# 2 Tomek
+# 3 Agata
+# 4 Filip
+
+imiona = ["Radek", "Tomek", "Agata", "Filip", "Ewa"]
+wiek = [44, 55, 28, 49]
+#
+# # Radek 44
+# for p in imiona:
+#     print(p, wiek[imiona.index(p)])
+
+# Radek 44
+# Tomek 55
+# Agata 28
+# Filip 49
+# gdy różne długości list: IndexError: list index out of range
+imiona = ["Radek", "Tomek", "Agata", "Filip", "Ewa"]
+wiek = [44, 55, 28, 49]
+
+# zip() - łączy kolekcje
+for i in zip(imiona, wiek):
+    print(i)
+# ('Radek', 44)
+# ('Tomek', 55)
+# ('Agata', 28)
+# ('Filip', 49)
+
+for i, w in zip(imiona, wiek):
+    print(i, w)
+# Radek 44
+# Tomek 55
+# Agata 28
+# Filip 49
+
+# 0 Radek 44
+for i in enumerate(zip(imiona, wiek)):
+    print(i)
+# (0, ('Radek', 44))
+# (1, ('Tomek', 55))
+# (2, ('Agata', 28))
+# (3, ('Filip', 49))
+a, b = (0, ('Radek', 44))
+print(a, b)  # 0 ('Radek', 44)
+c, d = ('Radek', 44)
+print(c, d)  # Radek 44
+# (a, (c, d)) = (0, ('Radek', 44))
+a, (c, d) = (0, ('Radek', 44))
+print(a, c, d)  # 0 Radek 44
+
+for i, (o, w) in enumerate(zip(imiona, wiek)):
+    print(i, o, w)
+# 0 Radek 44
+# 1 Tomek 55
+# 2 Agata 28
+# 3 Filip 49
