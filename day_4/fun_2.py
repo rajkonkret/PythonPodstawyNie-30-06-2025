@@ -28,9 +28,9 @@ print(oblicz_vat(1000))  # 1230.0
 print(oblicz_vat(1000, 15))  # 1150.0
 print(oblicz_vat(vat=8, kwota=6789))  # 7332.12
 
-zm = oblicz_vat(1000) # 1241.0
+zm = oblicz_vat(1000)  # 1230.0
 
 if zm == 1230:
     print("Ok")  # Ok
 
-print(dodaj(5, 6) + oblicz_vat(1000))
+print(dodaj(5, 6) + oblicz_vat(1000))  # 1241.0
