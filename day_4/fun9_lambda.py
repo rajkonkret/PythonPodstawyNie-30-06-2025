@@ -67,13 +67,15 @@ for i in lista:
     if i < 3:
         l3.append(i)
 
-print(l3) # [1, 2]
+print(l3)  # [1, 2]
 
 # filter()
-print(f"Zastosowanie filter: {list(filter(lambda x: x < 3, lista))}") # Zastosowanie filter: [1, 2]
-print(f"Zastosowanie filter: {list(filter(lambda x: x > 50, lista))}") # Zastosowanie filter: [100, 500]
-print(f"Zastosowanie filter: {list(filter(lambda x: x < 500, lista))}") # Zastosowanie filter: [1, 2, 3, 4, 24, 50, 100]
+print(f"Zastosowanie filter: {list(filter(lambda x: x < 3, lista))}")  # Zastosowanie filter: [1, 2]
+print(f"Zastosowanie filter: {list(filter(lambda x: x > 50, lista))}")  # Zastosowanie filter: [100, 500]
+print(f"Zastosowanie filter: {list(filter(lambda x: x < 500, lista))}")
+# Zastosowanie filter: [1, 2, 3, 4, 24, 50, 100]
 
 # x > 3 i x < 200
-print(f"Zastosowanie filter: {list(filter(lambda x: x > 3 and x < 200 , lista))}") # Zastosowanie filter: [4, 24, 50, 100]
-print(f"Zastosowanie filter: {list(filter(lambda x: 3 < x < 200, lista))}") # Zastosowanie filter: [4, 24, 50, 100]
+print(f"Zastosowanie filter: {list(filter(lambda x: x > 3 and x < 200, lista))}")
+# Zastosowanie filter: [4, 24, 50, 100]
+print(f"Zastosowanie filter: {list(filter(lambda x: 3 < x < 200, lista))}")  # Zastosowanie filter: [4, 24, 50, 100]
