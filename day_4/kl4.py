@@ -1,4 +1,7 @@
-class Ptak:
+from abc import ABC, abstractmethod
+
+
+class Ptak(ABC):
     """
     Klasa opsująca ptaka w pythonie
     """
@@ -10,6 +13,7 @@ class Ptak:
     def latam(self):
         print("Tu", self.gatunek, 'Lecę z szybkością', self.szybkosc)
 
+    @abstractmethod  # dekorator oznaczajacy metodę jako abstrakcyjną
     def wydaj_oglos(self):
         pass
 
@@ -38,12 +42,27 @@ class Orzel(Ptak):
         print("Kier kir kier")
 
 
-or1 = Ptak("Orzeł", 50)
-or1.latam()  # Tu Orzeł Lecę z szybkością 50
-
-kur1 = Ptak("Kura", 0)
-kur1.latam()  # Tu Kura Lecę z szybkością 0
+# TypeError: Can't instantiate abstract class Ptak without an implementation for abstract method 'wydaj_oglos'
+# or1 = Ptak("Orzeł", 50)
+# or1.latam()  # Tu Orzeł Lecę z szybkością 50
+#
+# kur1 = Ptak("Kura", 0)
+# kur1.latam()  # Tu Kura Lecę z szybkością 0
 
 kur2 = Kura("Kura domowa")
 kur2.latam()  # Tu Kura domowa Ja nie latam.
 kur2.wydaj_oglos()  # Ko ko ko ko
+
+or2 = Orzel("Bielik", 55)
+or2.latam()
+or2.wydaj_oglos()
+# Tu Bielik Lecę z szybkością 55
+# Kier kir kier
+
+lista = [kur2, or2]
+
+# polimorfizm - obiekty roóżnych klas zachowująsie w zakresie metody wydaj_odglos tak samo
+for i in lista:
+    i.wydaj_oglos()
+# Ko ko ko ko
+# Kier kir kier
