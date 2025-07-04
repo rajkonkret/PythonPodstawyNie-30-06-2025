@@ -18,3 +18,7 @@ print(xml_str)
 # <root>
 # 	<product name="GFG"/>
 # </root>
+
+save_math = 'gfg.xml'
+with open(save_math, "w") as f:
+    f.write(xml_str)
