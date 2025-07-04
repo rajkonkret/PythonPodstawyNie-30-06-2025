@@ -132,3 +132,6 @@ pip freeze > requirements.txt
 # pip install pyinstaller
 # cd ..
 # pyinstaller --onefile --noconsole okno1.py
+
+# krótkie podsumowanie naszych zajęć wygenerowane za pomocą AI
+https://notebooklm.google.com/notebook/bddefd30-8625-46f0-b057-246dfedd16d0/audio
