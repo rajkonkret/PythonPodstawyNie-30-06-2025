@@ -125,3 +125,10 @@ https://pl.altapps.net/soft/hackerrank-com
 https://naukajava.online/
 https://naukapythona.com.pl/
 https://colab.research.google.com/
+
+pip freeze > requirements.txt
+# pip install -r requirements.txt
+
+# pip install pyinstaller
+# cd ..
+# pyinstaller --onefile --noconsole okno1.py
